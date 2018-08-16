@@ -7,9 +7,7 @@ class MainRoom extends Component {
     constructor(props){
         super(props)
         this.state ={
-            number:[1,2,3,4,5,6,7,8,9,10],
             random:0
-            
         }
     }
 
@@ -17,8 +15,6 @@ class MainRoom extends Component {
         this.setState({
             random: Math.floor(Math.random()*6)
         })
-        // var random = 
-        // console.log(random);
     }
 
     render() {
